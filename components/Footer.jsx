@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -20,20 +21,23 @@ const Footer = () => {
                     <article className={"col-start-9 col-end-10"}>
                         <h3 className={"text-[20px] font-bold text-white mb-6"}>Company</h3>
                         <div className={"text-white space-y-4"}>
-                            <p>Product</p>
-                            <p>Bike Type</p>
-                            <p>About Us</p>
-                            <p>Contact</p>
+                            <Link href={"#product"}><p className={"cursor-pointer"}>Product</p></Link>
+                            <Link href={"#bike-type"}><p className={"cursor-pointer"}>Bike Type</p></Link>
+                            <Link href={"#about-us"}><p className={"cursor-pointer"}>About Us</p></Link>
+                            <Link href={"#contact"}><p className={"cursor-pointer"}>Contact</p></Link>
                         </div>
                     </article>
 
                     <article className={"col-start-11 col-end-13 "}>
                         <h3 className={"text-[20px] font-bold text-white mb-6"}>Help</h3>
                         <div className={" space-y-4 text-white"}>
-                            <p>Help center</p>
-                            <p>Contact support</p>
-                            <p>Instructions</p>
-                            <p>How it works</p>
+                            <Link href={"#help"}><p className={"cursor-pointer"}>Help center</p></Link>
+                            <Link href={"#support"}><p className={"cursor-pointer"}>Contact support</p></Link>
+                            <Link href={"#instructions"}><p className={"cursor-pointer"}>Instructions</p></Link>
+                            <Link href={"#how-it-works"}><p className={"cursor-pointer"}>How it works</p></Link>
+
+
+
                         </div>
                     </article>
 
