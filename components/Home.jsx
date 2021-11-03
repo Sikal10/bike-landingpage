@@ -9,7 +9,6 @@ import Footer from "./Footer";
 const Home = () => {
     return (
         <div className={"bg-gray-50 scrollbar-hide h-screen overflow-y-scroll overflow-x-hidden"}>
-            <Header />
             <Hero />
             <Bike />
             <BikeSectionTwo />
