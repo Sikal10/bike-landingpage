@@ -14,11 +14,11 @@ const Header = ({isOpen, toggleIcon}) => {
                     <img src="/images/logo.svg" className={"mt-[6px]"} alt=""/>
 
                     <div className={"flex space-x-7 mt-[14px] items-center"}>
-                        <Link href={"#"}><p className={"text-[#233348] cursor-pointer text-[18px] font-bold"}>Product</p></Link>
-                        <Link href="#bike-type"><p className={"text-[#7D7987] cursor-pointer text-[18px] h-[23px]"}>Bike Type</p></Link>
-                        <Link href={"#about"}><p className={"text-[#7D7987] cursor-pointer text-[18px] h-[23px]"}>About Us</p></Link>
-                        <Link href={"#testimonials"}><p className={"text-[#7D7987] cursor-pointer text-[18px] h-[23px]"}>Testimonials</p></Link>
-                        <Link href={"#contact"}><p className={"text-[#7D7987] cursor-pointer text-[18px] h-[23px]"}>Contact</p></Link>
+                        <Link href={"#product"}><p className={"text-[#233348] font-mulish cursor-pointer text-[18px] font-bold"}>Product</p></Link>
+                        <Link href="#bike-type"><p className={"text-[#7D7987] font-mulish cursor-pointer text-[18px] h-[23px]"}>Bike Type</p></Link>
+                        <Link href={"#about"}><p className={"text-[#7D7987] font-mulish cursor-pointer text-[18px] h-[23px]"}>About Us</p></Link>
+                        <Link href={"#testimonials"}><p className={"text-[#7D7987] font-mulish cursor-pointer text-[18px] h-[23px]"}>Testimonials</p></Link>
+                        <Link href={"#contact"}><p className={"text-[#7D7987] font-mulish cursor-pointer text-[18px] h-[23px]"}>Contact</p></Link>
                     </div>
                 </nav>
             </header>
@@ -42,11 +42,11 @@ const Header = ({isOpen, toggleIcon}) => {
                         <FaTimes className={"text-md text-red-500"} />
                     </p>
                     <div className={"mt-[14px] items-center"}>
-                        <Link href={"#"}><p className={"text-[#233348] text-center mb-10 mt-[120px] text-[18px] font-bold"}>Product</p></Link>
-                        <Link href="#bike-type"><p className={"text-[#7D7987] text-center my-10 text-[18px] h-[23px]"}>Bike Type</p></Link>
-                        <Link href={"#about"}><p className={"text-[#7D7987] text-center my-10 text-[18px] h-[23px]"}>About Us</p></Link>
-                        <Link href={"#testimonials"}><p className={"text-[#7D7987] text-center my-10 text-[18px] h-[23px]"}>Testimonials</p></Link>
-                        <Link href={"#contact"}><p className={"text-[#7D7987] cursor-pointer text-[18px] h-[23px]"}>Contact</p></Link>
+                        <Link href={"#"}><p className={"text-[#233348] font-mulish text-center mb-10 mt-[120px] text-[18px] font-bold"}>Product</p></Link>
+                        <Link href="#bike-type"><p className={"text-[#7D7987] font-mulish text-center my-10 text-[18px] h-[23px]"}>Bike Type</p></Link>
+                        <Link href={"#about"}><p className={"text-[#7D7987] font-mulish text-center my-10 text-[18px] h-[23px]"}>About Us</p></Link>
+                        <Link href={"#testimonials"}><p className={"text-[#7D7987] font-mulish text-center my-10 text-[18px] h-[23px]"}>Testimonials</p></Link>
+                        <Link href={"#contact"}><p className={"text-[#7D7987] font-mulish cursor-pointer text-[18px] h-[23px]"}>Contact</p></Link>
                     </div>
                 </aside>
 

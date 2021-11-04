@@ -33,7 +33,7 @@ const Review = () => {
                             <img src="/images/Group 10.png" className={"absolute -top-12 opacity-75 right-10 rotate-90"} alt=""/>
 
                             <div className={"grid grid-cols-12"}>
-                                <h2 className={"col-span-full col-start-3 pt-[64px] text-[36px] text-white font-bold"}>What our customer are saying</h2>
+                                <h2 className={"col-span-full col-start-3 pt-[64px] font-mulish text-[36px] text-white font-bold"}>What our customer are saying</h2>
 
                                 <div className={"border-b col-start-6 border-2 bg-white w-[56px] col-span-full text-center"}/>
 
@@ -42,13 +42,13 @@ const Review = () => {
                                 <div className={"col-span-6 mt-[33px] col-start-3 col-end-6"}>
                                     <img src={image} className={"rounded-full bg-white border p-1 "} alt=""/>
                                     <div>
-                                        <h2 className={"text-[22px] my-[10px] text-white font-semibold"}>{name}</h2>
-                                        <span className={"text-white px-10"}>{job}</span>
+                                        <h2 className={"text-[22px] my-[10px] font-mulish text-white font-semibold"}>{name}</h2>
+                                        <span className={"text-white font-mulish px-10"}>{job}</span>
                                     </div>
                                 </div>
 
                                 {/*text*/}
-                                <p className={"col-span-6 text-white opacity-90 leading-[30px] mt-[74px] w-[71%]"}>{review}</p>
+                                <p className={"col-span-6 text-white opacity-90 font-mulish leading-[30px] mt-[74px] w-[71%]"}>{review}</p>
                             </div>
                         </div>
 
@@ -91,7 +91,7 @@ const Review = () => {
                             <img src="/images/Group 10.png" className={"absolute -top-12 opacity-25 right-9 rotate-90"} alt=""/>
 
                             <div className={"grid grid-cols-4 relative space-y-6"}>
-                                <h2 className={"text-[30px] leading-[30px] text-center px-4 col-span-full text-white font-semibold"}>What our customer are saying</h2>
+                                <h2 className={"text-[30px] font-mulish leading-[30px] text-center px-4 col-span-full text-white font-semibold"}>What our customer are saying</h2>
 
                                 <div className={"border-b col-start-3 -ml-8 border bg-white w-[56px] col-span-full text-center"}/>
 
@@ -101,14 +101,14 @@ const Review = () => {
                                    <div className={"flex items-center justify-center flex-col space-y-3"}>
                                        <img src={image} className={"rounded-full h-[100px] bg-white p-[3px]"} alt=""/>
                                        <div className={"space-y-1"}>
-                                           <h2 className={"text-[22px] text-center text-white font-semibold"}>{name}</h2>
-                                           <span className={"text-white px-10"}>{job}</span>
+                                           <h2 className={"text-[22px] font-mulish text-center text-white font-semibold"}>{name}</h2>
+                                           <span className={"text-white font-mulish px-10"}>{job}</span>
                                        </div>
                                    </div>
                                 </div>
 
                                 {/*text*/}
-                                <p className={"px-3 text-center text-[19px] opacity-90 text-white col-start-1 col-end-5 col-span-full"}>{review}</p>
+                                <p className={"px-3 text-center font-mulish text-[19px] opacity-90 text-white col-start-1 col-end-5 col-span-full"}>{review}</p>
                             </div>
                         </div>
 

@@ -14,27 +14,27 @@ const Footer = () => {
                             </div>
                             <p className={"text-[24px] text-white"}>eBike</p>
                         </div>
-                        <p className={"w-[62%] text-[18px] font-light text-white mt-[22px]"}>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
-                        <p className={"mt-[31px] text-[16px] font-light text-white "}>©eBike 2021. All rights reserved</p>
+                        <p className={"w-[62%] text-[18px] font-mulish font-light text-white mt-[22px]"}>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                        <p className={"mt-[31px] text-[16px] font-mulish font-light text-white "}>©eBike 2021. All rights reserved</p>
                     </article>
 
                     <article className={"col-start-9 col-end-10"}>
-                        <h3 className={"text-[20px] font-bold text-white mb-6"}>Company</h3>
+                        <h3 className={"text-[20px] font-bold text-white font-mulish mb-6"}>Company</h3>
                         <div className={"text-white space-y-4"}>
-                            <Link href={"#product"}><p className={"cursor-pointer"}>Product</p></Link>
-                            <Link href={"#bike-type"}><p className={"cursor-pointer"}>Bike Type</p></Link>
-                            <Link href={"#about-us"}><p className={"cursor-pointer"}>About Us</p></Link>
-                            <Link href={"#contact"}><p className={"cursor-pointer"}>Contact</p></Link>
+                            <Link href={"#product"}><p className={"cursor-pointer font-mulish"}>Product</p></Link>
+                            <Link href={"#bike-type"}><p className={"cursor-pointer font-mulish"}>Bike Type</p></Link>
+                            <Link href={"#about-us"}><p className={"cursor-pointer font-mulish"}>About Us</p></Link>
+                            <Link href={"#contact"}><p className={"cursor-pointer font-mulish"}>Contact</p></Link>
                         </div>
                     </article>
 
                     <article className={"col-start-11 col-end-13 "}>
-                        <h3 className={"text-[20px] font-bold text-white mb-6"}>Help</h3>
+                        <h3 className={"text-[20px] font-bold text-white mb-6 font-mulish"}>Help</h3>
                         <div className={" space-y-4 text-white"}>
-                            <Link href={"#help"}><p className={"cursor-pointer"}>Help center</p></Link>
-                            <Link href={"#support"}><p className={"cursor-pointer"}>Contact support</p></Link>
-                            <Link href={"#instructions"}><p className={"cursor-pointer"}>Instructions</p></Link>
-                            <Link href={"#how-it-works"}><p className={"cursor-pointer"}>How it works</p></Link>
+                            <Link href={"#help"}><p className={"cursor-pointer font-mulish"}>Help center</p></Link>
+                            <Link href={"#support"}><p className={"cursor-pointer font-mulish"}>Contact support</p></Link>
+                            <Link href={"#instructions"}><p className={"cursor-pointer font-mulish"}>Instructions</p></Link>
+                            <Link href={"#how-it-works"}><p className={"cursor-pointer font-mulish"}>How it works</p></Link>
 
 
 
@@ -52,20 +52,20 @@ const Footer = () => {
                     <article className={"col-span-full text-center"}>
                         <h3 className={"text-[25px] font-bold text-white mb-6"}>Company</h3>
                         <div className={"text-white space-y-4"}>
-                            <p>Product</p>
-                            <p>Bike Type</p>
-                            <p>About Us</p>
-                            <p>Contact</p>
+                            <p className={"font-mulish"}>Product</p>
+                            <p className={"font-mulish"}>Bike Type</p>
+                            <p className={"font-mulish"}>About Us</p>
+                            <p className={"font-mulish"}>Contact</p>
                         </div>
                     </article>
 
                     <article className={"col-span-full text-center mt-10"}>
-                        <h3 className={"text-[25px] font-bold text-white mb-6"}>Help</h3>
+                        <h3 className={"text-[25px] font-mulish font-bold text-white mb-6"}>Help</h3>
                         <div className={" space-y-4 text-white"}>
-                            <p>Help center</p>
-                            <p>Contact support</p>
-                            <p>Instructions</p>
-                            <p>How it works</p>
+                            <p className={"font-mulish"}>Help center</p>
+                            <p className={"font-mulish"}>Contact support</p>
+                            <p className={"font-mulish"}>Instructions</p>
+                            <p className={"font-mulish"}>How it works</p>
                         </div>
                     </article>
 
@@ -74,13 +74,11 @@ const Footer = () => {
                             <div>
                                 <p className={"text-[26px] rounded-full w-[41px] h-[41px] bg-white text-center text-[#FCB72B]"}>B</p>
                             </div>
-                            <p className={"text-[24px] text-white"}>eBike</p>
+                            <p className={"text-[24px] font-mulish text-white"}>eBike</p>
                         </div>
-                        <p className={"text-[18px] font-light text-white mt-[20px]"}>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
-                        <p className={"mt-[22px] text-[16px] font-light text-white "}>©eBike 2021. All rights reserved</p>
+                        <p className={"text-[18px] font-mulish font-light text-white mt-[20px]"}>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                        <p className={"mt-[22px] font-mulish text-[16px] font-light text-white "}>©eBike 2021. All rights reserved</p>
                     </article>
-
-
                 </div>
             </footer>
 
