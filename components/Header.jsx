@@ -46,7 +46,7 @@ const Header = ({isOpen, toggleIcon}) => {
                         <Link href="#bike-type"><p className={"text-[#7D7987] font-mulish text-center my-10 text-[18px] h-[23px]"}>Bike Type</p></Link>
                         <Link href={"#about"}><p className={"text-[#7D7987] font-mulish text-center my-10 text-[18px] h-[23px]"}>About Us</p></Link>
                         <Link href={"#testimonials"}><p className={"text-[#7D7987] font-mulish text-center my-10 text-[18px] h-[23px]"}>Testimonials</p></Link>
-                        <Link href={"#contact"}><p className={"text-[#7D7987] font-mulish cursor-pointer text-[18px] h-[23px]"}>Contact</p></Link>
+                        <Link href={"#contact"}><p className={"text-[#7D7987] font-mulish text-center cursor-pointer text-[18px] h-[23px]"}>Contact</p></Link>
                     </div>
                 </aside>
 
