@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .custom-next1 {
+        @apply bg-[#FFBD37] flex items-center justify-center rounded-full h-[48px] w-[48px]
+    }
+    .custom-prev1 {
+        @apply bg-[#FFE8B9] flex items-center justify-center rounded-full h-[48px] w-[48px]
+    }
+    .swiper-wrapper {
+    }
+}
