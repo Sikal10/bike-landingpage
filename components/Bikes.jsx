@@ -9,7 +9,7 @@ SwiperCore.use([Navigation]);
 
 const Slider = () => {
     return (
-        <div className='relative'>
+        <div className='relative hidden md:block'>
             <img src="/images/Vector (1).png" className={"absolute w-[500px] top-7 right-0 left-0 bottom-0"} alt=""/>
 
             <div className={" max-w-[1200px] mt-5 p-4 space-x-7 flex ml-72"}>
